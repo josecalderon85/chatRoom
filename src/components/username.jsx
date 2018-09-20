@@ -6,7 +6,7 @@ class Username extends React.Component {
     this.state = {
       username:"",
     }
-    this.onChange =this.onChange.bind(this)
+    this.onChange = this.onChange.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
   }
   onChange(e){
