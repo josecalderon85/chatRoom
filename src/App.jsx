@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Username from "./components/username.jsx"
+import ChatScreen from './components/ChatScreen.js'
 
 class App extends React.Component {
   constructor(){
   super()
+
   this.onUsernameSubmitted = this.onUsernameSubmitted.bind(this)
 }
 onUsernameSubmitted(username) {
@@ -25,6 +27,7 @@ onUsernameSubmitted(username) {
     return (
       <div>
         <Username onSubmit={this.onUsernameSubmitted} />
+        <ChatScreen />
       </div>
     );
   }
