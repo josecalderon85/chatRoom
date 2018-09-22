@@ -32,16 +32,5 @@ onUsernameSubmitted(username) {
 }
 
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="app">
-        <MessageList messages={this.state.messages} />
-        <SendMessageForm />
-     </div>
-    )
-  }
-}
-
 
 export default App
