@@ -1,9 +1,10 @@
+
 import React, { Component } from 'react'
 import Chatkit from '@pusher/chatkit'
 import MessageList from './components/MessageList'
 import SendMessageForm from './components/SendMessageForm'
 import TypingIndicator from './components/TypingIndicator'
-import WhosOnlineList from './components/WhosOnlineList'
+import WhosOnlineList from './components/WhoIsOnlineList'
 
 class ChatScreen extends Component {
   constructor(props) {
@@ -45,7 +46,7 @@ class ChatScreen extends Component {
       .then(currentUser => {
         this.setState({ currentUser })
         return currentUser.subscribeToRoom({
-          roomId: 16821813,
+          roomId: 7043716,
           messageLimit: 100,
           hooks: {
             onNewMessage: message => {
