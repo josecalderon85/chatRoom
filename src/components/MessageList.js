@@ -11,13 +11,13 @@ class MessagesList extends Component {
        listStyle: 'none',
      },
      li: {
-       marginTop: 13,
-       marginBottom: 13,
+       marginTop: 14,
+       marginBottom: 14,
      },
      senderUsername: {
        fontWeight: 'bold',
      },
-     message: { fontSize: 15 },
+     message: { fontSize: 17 },
    }
    return (
      <div
