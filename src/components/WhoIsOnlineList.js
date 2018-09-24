@@ -55,7 +55,7 @@ class WhosOnlineListItem extends Component {
          style={{
            ...styles.div,
            backgroundColor:
-             this.props.presenceState === 'online' ? '#539eff' : '#414756',
+             this.props.presenceState === 'online' ? '#0893C8' : 'white',
          }}
        />
        {this.props.children}

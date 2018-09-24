@@ -6,7 +6,7 @@ class Username extends React.Component {
     this.state = {
       username:"",
     }
-    this.onChange =this.onChange.bind(this)
+    this.onChange = this.onChange.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
   }
   onChange(e){
@@ -22,12 +22,18 @@ class Username extends React.Component {
 
     render(){
       return(
+      <center><div id= "content">
       <div>
+      <h1>
+ <img id="hello" src="https://png.icons8.com/doodle/2x/hello.png"/> Welcome To MxChat ^_^</h1>
         <form onSubmit={this.onSubmit}>
-          <input type="text" placeholder="What is your name" onChange={this.onChange}/>
-            <input type="submit" />
+          <input ClassName="textbox" type="text" placeholder="What is your name?" onChange={this.onChange}/>
+            <input type="Submit" />
           </form>
-      </div>
+          <div><img src="https://png.icons8.com/nolan/2x/speech-bubble.png"/></div>
+          </div>
+
+      </div></center>
     );
   }
 }
