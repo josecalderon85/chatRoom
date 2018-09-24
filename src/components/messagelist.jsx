@@ -91,6 +91,7 @@ class MessagesList extends Component {
             <li key={index} style={styles.li}>
               <div>
                 <span style={styles.senderUsername}>{message.senderId}</span>{' '}
+                <div><img src="https://png.icons8.com/nolan/2x/speech-bubble.png"/></div>
               </div>
               <p style={styles.message}>{message.text}</p>
             </li>

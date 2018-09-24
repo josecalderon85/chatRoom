@@ -26,9 +26,9 @@ class SendMessageForm extends Component {
  render() {
    const styles = {
      container: {
-       padding: 20,
+       padding: 15,
        borderTop: '1px #4C758F solid',
-       marginBottom: 20,
+       marginBottom: 15,
      },
      form: {
        display: 'flex',
@@ -48,7 +48,7 @@ class SendMessageForm extends Component {
          <form onSubmit={this.onSubmit} style={styles.form}>
            <input
              type="text"
-             placeholder="Type a message here then hit ENTER"
+             placeholder="Type Your Message Here... Then Hit ENTER                   MxChat ^_^"
              onChange={this.onChange}
              value={this.state.text}
              style={styles.input}
